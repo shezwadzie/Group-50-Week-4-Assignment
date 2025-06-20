@@ -1,0 +1,16 @@
+# Ethical Reflection
+
+## Scenario:
+A company uses a predictive model (e.g., Random Forest) to prioritize issues.
+
+## Potential Bias:
+- The dataset may lack enough examples from minority groups or small teams.
+- The model may favor data from dominant sources, leading to unfair prioritization.
+
+## Solution:
+- Use fairness tools like **IBM AI Fairness 360** to detect and fix bias.
+- Apply techniques like **reweighing**, **equal opportunity constraints**, or **data balancing**.
+- Test your model for fairness before deploying it.
+
+Conclusion:
+Bias can lead to unfair decisions, especially in automation. Ethical AI tools help promote fairness and inclusion in software engineering.
